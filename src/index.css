@@ -1,0 +1,50 @@
+body{
+  background-color: darkcyan;
+}
+
+
+
+
+.faqlists{
+  width: 500px;
+ 
+  margin: 40px auto;
+  
+ }
+
+.question{
+  background-color:crimson;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+
+
+}
+.answer{
+  background-color: white;
+  color: black;
+  
+  transition: max-height 0.3s ease;
+  margin-bottom: 5px;
+  max-height: 0px;
+  max-width: 0px;
+  overflow: hidden;
+}
+.question:hover{
+  background-color:darkred;
+}
+
+.faq-content,.active .answer{
+  max-height: 500px;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 20px;
+
+} 

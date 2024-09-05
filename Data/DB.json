@@ -1,0 +1,21 @@
+{
+    "data":[
+        {
+            " id": 1,
+            "question": "react",
+            " answer": "easiest way of webdesigning"
+        },
+        {
+            "id": 2,
+            "question": "javascript",
+            "answer": "Designing web app"
+        },
+        {
+            "id": 3,
+            "question": "HTML,CSS",
+            " answer": "craete web pages"
+        }
+
+    ]
+  
+}
